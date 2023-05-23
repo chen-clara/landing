@@ -1,0 +1,39 @@
+/* Importing Google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Raleway:wght@100;200;300;400;500&display=swap");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/collection.css");
+
+/* General style rules for fonts and colors */
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 10;
+  background-color: #f5f5f5;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: floralwhite;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
